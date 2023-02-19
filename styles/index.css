@@ -202,8 +202,17 @@ ul {list-style-type: none;
     padding: 5px;
     margin: 15px 35px 15px auto;
     border-style:none;
-    border-radius: 12%;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    
 }
+
+.myreg:hover{
+    background-color: #ffe285;
+    color:#2f4858;
+    
+}
+
 
 .principal{
     display:flex;

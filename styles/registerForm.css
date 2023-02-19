@@ -93,6 +93,15 @@ img{
     margin: 15px;
 }
 
+
+input:invalid:required {
+    border: 2px solid #ff9d00;
+}
+  
+input:valid {
+    border: 2px solid lightgreen;
+}
+
 li {
     float:left;
        
@@ -160,15 +169,19 @@ ul {list-style-type: none;
     
 }
 
+.mydivbutton{
+
+    display:flex;
+    
+}
 
 .myform{
-    width: 75%;
+    width: 60%;
     background-color:#8abc40 ;
-    display: flex;
-
-    flex-direction: column;
-    align-items: initial;
-    margin: 10px 5px;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    /* margin: 10px 5px; */
     color: black;
     border-radius: 4%;
 
@@ -183,9 +196,7 @@ ul {list-style-type: none;
     padding: 0px; 
     margin: 15px 35px 15px auto;
     border-style:none;
-    /* border-radius: 10%; */
-    /* background-color: #ff9d00;
-    color:beige; */
+    
 }
 
 .mylabel{
@@ -214,11 +225,10 @@ ul {list-style-type: none;
     margin: 7px 3px 7px 3px;
     background-color: #ffe285;
     padding: 13px;
-    display: grid;
-    grid-template-columns: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    
-    border-radius: 4%;
+    border-radius: 12px;
 }
 
 .mysmallinput{
@@ -228,15 +238,21 @@ ul {list-style-type: none;
 
 .myval{
     
-    width: 35%;
+    width: 20%;
     padding: 5px;
     margin: 15px auto;
     border-style:none;
-    border-radius: 12%;
-
+    border-radius: 12px;
+    transition-duration: 0,4s;
+    font-weight: bold;
+    color:#2f4858;
 }
 
+.myval:hover{
+    background-color: #ffe285;
+    color:black;
 
+}
 
 .principal{
     display:flex;

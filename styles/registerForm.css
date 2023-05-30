@@ -9,20 +9,33 @@ body{
     font-family: 'Bubblegum Sans', cursive;
 }
 
+/* button a:link{
+    color:#2f4858;
+   } */
 
-button a{
+button a:link{
     display: block;
     color:#204c4c;
     text-align: center;
     padding: 5px;
     text-decoration: none;
-    
+    font-weight: bold;
+    transition-duration: 0.4s;
     
 }
 
 button a:hover:not(.active) {
     background-color: #ffe285;
     font-weight: bold;
+    color:#204c4c;
+    transition-duration: 0.4s;
+   
+}
+button a:visited {
+    background-color: #ffe285;
+    font-weight: bold;
+    color:#204c4c;
+    transition-duration: 0.4s;
    
 }
 
@@ -109,17 +122,17 @@ li {
 
 li a{
     display: block;
-    color: black;
+    color: azure;
     text-align: center;
     padding: 18px 16px;
     text-decoration: none;
-    pointer-events: none;
+    /* pointer-events: none; */
 
 }
 
 li a:hover:not(.active) {
-    background-color: #8abc40;
-    color: black;
+    background-color:  #ff9d00;
+    color:#2f4858;
      
 }
 

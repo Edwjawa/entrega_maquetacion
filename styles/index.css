@@ -10,6 +10,15 @@ body{
     font-family: 'Bubblegum Sans', cursive;
 }
 
+button a:link{
+ color:#2f4858;
+}
+
+button a:visited {
+    background-color: #ffe285;
+    font-weight: bold;
+    color:#204c4c;
+}
 
 footer {
     
@@ -86,7 +95,7 @@ li {
 
 li a{
     display: block;
-    color: black;
+    /* color: black; */
     text-align: center;
     padding: 18px 16px;
     text-decoration: none;
@@ -193,7 +202,7 @@ ul {list-style-type: none;
     padding: 5px;
     margin: 15px auto;
     border-style:none;
-    border-radius: 12%;
+    border-radius: 10px;
 
 }
 
